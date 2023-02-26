@@ -116,7 +116,7 @@ public class IntNode {
    * @param data the integer value to search for
    * 
    * @precondition head is not null
-   * @precondition the linked list pointed to by head contains only integers
+   * 
    * 
    * @return true if the value is found in the linked list, false otherwise
    * 
@@ -235,7 +235,7 @@ public class IntNode {
 
     IntNode result = subtract(testErase, sortedTest);
     IntNode sortresult = listSort(result);
-    // should not cainta numbres from 1 to 32
+    // should not contain numbres from 1 to 32
     System.out.println(sortresult.toString());
 
     IntNode list1 = new IntNode(1, new IntNode(2, new IntNode(3, new IntNode(3, null))));
